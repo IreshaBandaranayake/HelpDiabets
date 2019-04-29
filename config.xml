@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/2.0"
+        id        = "com.iresha.demo"
+        versionCode="11" 
+        version   = "2.0.0">
+
+
+
+    <name>HelpDiabets</name>
+
+    <description>
+       Diabates Help
+    </description>
+
+    <author href="" email="ireshabke@gmail.com">
+        Iresha Bandaranayake
+    </author>
+	
+	
+	<gap:plugin name="cordova-plugin-sms" source="npm" />
+	<!--plugin name="cordova-plugin-android-permissions" source="npm" spec="1.0.0" />
+	<plugin name="cordova-plugin-sms-receive" source="npm" spec="1.0.2" /--> 
+	
+	
+    <icon src="icons/logo.jpg" />
+	  <allow-intent href="http://*/*" />
+	  <allow-intent href="" />
+	  <allow-intent href="tel:*" />
+	  <allow-intent href="sms:*" />
+	  <allow-intent href="mailto:*" />
+	  <allow-intent href="geo:*" />
+
+</widget>
