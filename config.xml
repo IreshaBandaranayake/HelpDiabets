@@ -30,5 +30,7 @@
 	  <allow-intent href="sms:*" />
 	  <allow-intent href="mailto:*" />
 	  <allow-intent href="geo:*" />
+	
+	<access origin="https://www.google-analytics.com" />
 
 </widget>
